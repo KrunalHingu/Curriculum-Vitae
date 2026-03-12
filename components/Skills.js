@@ -1,18 +1,23 @@
 export default function Skills() {
 
   const skills = [
-    "Agile & Scrum (Certified)",
-    "Digital Transformation Practices",
+    "Project Management & Delivery",
+    "Agile & Scrum Methodologies (CSM Certified)",
     "End-to-End Project Lifecycle Management",
     "Cross-functional Team Leadership",
-    "Stakeholder & Client Communication",
-    "AI / ML Project Delivery",
+    "Stakeholder Engagement & Client Communication",
+    "Resource Planning & Allocation",
     "Risk & Issue Management",
-    "Tools: Jira, Trello, ClickUp, Asana",
-    "Resource Allocation & Reporting",
-    "Documentation & Requirement Analysis",
-    "Process Improvement & Efficiency Boost",
+    "Scrum Ceremonies & Sprint Planning",
+    "Digital Transformation Projects",
+    "AI / ML Project Delivery",
+    "Technical Consulting",
+    "Project Reporting & KPI Tracking",
+    "Requirement Analysis & Documentation",
+    "Process Improvement & Operational Efficiency",
     "Global Client Project Management",
+    "Basic AWS Cloud Knowledge",
+    "Tools: Jira, Trello, Monday Board"
   ];
 
   return (
