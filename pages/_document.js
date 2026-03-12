@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
 
-        {/* Font Preconnect for Performance */}
+        {/* Font Preconnect */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
 
@@ -15,46 +15,46 @@ export default function Document() {
           rel="stylesheet"
         />
 
-        {/* Basic SEO */}
+        {/* SEO */}
         <meta
           name="description"
-          content="Abhai Surti - Project Manager and Google PM Certified with 8+ years of IT experience in Agile, AI-driven projects, and digital transformation. Based in Ahmedabad, India."
+          content="Krunal Hingu – Senior Project Manager with 12+ years of IT experience in Agile delivery, digital transformation, and global client project management. Based in Ahmedabad, India."
         />
 
         <meta
           name="keywords"
-          content="Abhai Surti, Project Manager Ahmedabad, Agile Project Manager India, AI Project Management, Technical Project Manager, IT Project Coordinator, Google PM Certified, Scrum Master, Digital Transformation Expert, Stakeholder Management, Cross-functional Team Leadership"
+          content="Krunal Hingu, Project Manager Ahmedabad, Agile Project Manager India, Technical Project Manager, Scrum Master, Digital Transformation Leader, Global Client Project Management, IT Delivery Manager, Stakeholder Management, Cross-functional Team Leadership"
         />
 
-        <meta name="author" content="Abhai Surti" />
+        <meta name="author" content="Krunal Hingu" />
         <meta name="robots" content="index, follow" />
 
         {/* Canonical */}
-        <link rel="canonical" href="https://abhai-surti-pm.vercel.app/" />
+        <link rel="canonical" href="https://krunal-hingu-portfolio.vercel.app/" />
 
-        {/* Open Graph (LinkedIn / Facebook Preview) */}
-        <meta property="og:title" content="Abhai Surti | Project Manager Portfolio" />
+        {/* Open Graph */}
+        <meta property="og:title" content="Krunal Hingu | Senior Project Manager Portfolio" />
         <meta
           property="og:description"
-          content="Project Manager and Google PM Certified with 8+ years of IT experience. Skilled in Agile, AI/ML projects, and digital transformation."
+          content="Senior Project Manager with 12+ years of experience delivering complex IT projects for global clients across US, Australia, Singapore, China, and Canada."
         />
         <meta
           property="og:image"
-          content="https://abhai-surti-pm.vercel.app/image.png"
+          content="https://krunal-hingu-portfolio.vercel.app/profile.png"
         />
-        <meta property="og:url" content="https://abhai-surti-pm.vercel.app/" />
+        <meta property="og:url" content="https://krunal-hingu-portfolio.vercel.app/" />
         <meta property="og:type" content="website" />
 
-        {/* Twitter Card */}
+        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Abhai Surti | Project Manager Portfolio" />
+        <meta name="twitter:title" content="Krunal Hingu | Senior Project Manager Portfolio" />
         <meta
           name="twitter:description"
-          content="Project Manager and Google PM Certified with 8+ years of IT experience in Agile and AI-driven projects."
+          content="Senior Project Manager with expertise in Agile delivery, stakeholder management, and digital transformation projects."
         />
         <meta
           name="twitter:image"
-          content="https://abhai-surti-pm.vercel.app/image.png"
+          content="https://krunal-hingu-portfolio.vercel.app/profile.png"
         />
 
         {/* Local SEO */}
@@ -67,24 +67,24 @@ export default function Document() {
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 
-        {/* Structured Data for Google */}
+        {/* Structured Data */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Person",
-              name: "Abhai Surti",
-              jobTitle: "Project Manager",
-              url: "https://abhai-surti-pm.vercel.app/",
-              image: "https://abhai-surti-pm.vercel.app/image.png",
+              name: "Krunal Hingu",
+              jobTitle: "Senior Project Manager",
+              url: "https://krunal-hingu-portfolio.vercel.app/",
+              image: "https://krunal-hingu-portfolio.vercel.app/profile.png",
               sameAs: [
-                "https://www.linkedin.com/in/abhai-surti-b20854140"
+                "https://www.linkedin.com/in/krunalhingu/"
               ],
-              email: "mailto:surti.abhai007@gmail.com",
+              email: "mailto:krunal.hingu@gmail.com",
               worksFor: {
                 "@type": "Organization",
-                name: "TrooTech Technologies"
+                name: "TRooTech Business Solutions Pvt. Ltd."
               },
               address: {
                 "@type": "PostalAddress",
@@ -94,31 +94,29 @@ export default function Document() {
               },
               knowsAbout: [
                 "Agile Project Management",
-                "AI Project Delivery",
-                "Scrum",
-                "Kanban",
+                "Scrum Methodology",
                 "Digital Transformation",
-                "Risk Management",
-                "Stakeholder Communication",
-                "Cross-functional Team Leadership",
+                "Stakeholder Management",
                 "Project Lifecycle Management",
+                "Risk Management",
+                "Cross-functional Team Leadership",
+                "Global Client Delivery",
+                "AI / ML Project Delivery",
                 "Jira",
+                "ClickUp",
                 "Trello",
                 "Asana",
-                "ClickUp"
+                "AWS"
               ],
+              alumniOf: {
+                "@type": "CollegeOrUniversity",
+                name: "SKPIMCS, Gandhinagar"
+              },
               hasCredential: [
                 {
                   "@type": "EducationalOccupationalCredential",
                   credentialCategory: "Professional Certificate",
-                  name: "Google Project Management Professional Certificate",
-                  url: "https://www.credly.com/badges/450795fc-f884-4da0-a90d-f92e61baa244"
-                },
-                {
-                  "@type": "EducationalOccupationalCredential",
-                  credentialCategory: "Professional Certificate",
-                  name: "Agile Project Management – Google (Coursera)",
-                  url: "https://www.coursera.org/account/accomplishments/verify/0UDNP06M82K5"
+                  name: "Certified Scrum Master (CSM)"
                 }
               ]
             }),
