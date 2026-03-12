@@ -1,3 +1,4 @@
+import { FaCheckCircle } from "react-icons/fa";
 export default function Skills() {
 
   const skills = [
@@ -29,7 +30,7 @@ export default function Skills() {
           Core Skills
         </h2>
 
-      import { FaCheckCircle } from "react-icons/fa";
+      
 
 <div className="grid md:grid-cols-2 gap-4">
 
