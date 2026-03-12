@@ -39,7 +39,7 @@ export default function Hero() {
           <div className="mt-6 flex flex-wrap gap-4 justify-center md:justify-start">
 
             <a
-              href="/Krunal-Hingu-CV.pdf"
+              href="https://drive.google.com/file/d/1rYDVYNqbxqbSwbR2uM_vAyKFBcyFIX5L/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
