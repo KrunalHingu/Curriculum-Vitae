@@ -81,9 +81,9 @@ export default function Home() {
             <Experience />
           </section>
 
-          <section id="certifications">
+          <!-- section id="certifications">
             <Certifications />
-          </section>
+          </section -->
 
           <section id="contact">
             <Contact />
