@@ -5,7 +5,7 @@ export default function Navbar() {
 
         {/* Logo / Name */}
         <h1 className="text-xl font-bold text-primary">
-          Abhai Surti
+          Krunal Hingu
         </h1>
 
         {/* Navigation */}
