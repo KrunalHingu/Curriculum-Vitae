@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://abhai-surti-pm.vercel.app/sitemap.xml
+Sitemap: https://krunalhingu.vercel.app/sitemap.xml
