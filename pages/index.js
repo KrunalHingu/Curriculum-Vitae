@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Krunal Hingu – Project Manager | Agile & Scrum Professional</title>
+        <title>Krunal Hingu – Project Manager | CSM</title>
 
         <meta
           name="description"
