@@ -15,7 +15,7 @@ export default function Hero() {
         </div>
 
         {/* Text Content */}
-        <div className="text-center md:text-left max-w-xl">
+        <div className="text-center md:text-left max-w-xxl">
 
           <h1 className="text-4xl md:text-5xl font-bold leading-tight">
             Hi, I’m <span className="text-primary">Krunal Hingu</span>
