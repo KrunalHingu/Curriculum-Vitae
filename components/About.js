@@ -14,26 +14,25 @@ export default function About() {
 
             <p>
               I am a <span className="text-primary font-semibold">
-              Project Manager & Google Project Management Certified professional</span>
-              with over <strong>8 years of experience in the IT industry</strong>.
-              I am currently working as a <strong>Project Coordinator at
-              TrooTech Business Solutions</strong> in Ahmedabad.
+              Project Manager</span> with over <strong>12 years of experience in the IT industry</strong>.
+              I specialize in successfully leading cross-functional teams and delivering
+              complex projects on time and within budget.
             </p>
 
             <p>
-              My expertise includes <span className="text-primary">Agile project management</span>,
-              <span className="text-primary"> AI-driven product delivery</span>,
-              and <span className="text-primary"> digital transformation initiatives</span>.
-              I have successfully managed cross-functional teams and delivered
-              enterprise-grade IT solutions aligned with business goals.
+              I have proven experience managing projects for global clients across
+              <span className="text-primary"> India, the United States, China, Singapore,
+              Australia, and Canada</span>, ensuring high-quality product delivery and
+              alignment with business objectives.
             </p>
 
             <p>
-              I specialize in <span className="text-primary">stakeholder communication</span>,
-              <span className="text-primary"> risk management</span>, and
-              <span className="text-primary"> strategic project planning</span>.
-              I regularly work with tools like <strong>Jira, Trello, ClickUp,
-              and Asana</strong>.
+              My expertise includes <span className="text-primary">project planning</span>,
+              <span className="text-primary"> stakeholder management</span>,
+              <span className="text-primary"> Agile and Scrum methodologies</span>, and
+              <span className="text-primary"> risk management</span>.
+              I focus on driving operational efficiency and delivering technology
+              solutions that support organizational growth.
             </p>
 
           </div>
@@ -42,23 +41,23 @@ export default function About() {
           <div className="grid grid-cols-2 gap-6">
 
             <div className="p-5 rounded-xl border border-gray-200 bg-white shadow-sm">
-              <p className="text-2xl font-bold text-primary">8+</p>
+              <p className="text-2xl font-bold text-primary">12+</p>
               <p className="text-sm text-gray-600">Years Experience</p>
             </div>
 
             <div className="p-5 rounded-xl border border-gray-200 bg-white shadow-sm">
-              <p className="text-2xl font-bold text-primary">20+</p>
+              <p className="text-2xl font-bold text-primary">25+</p>
               <p className="text-sm text-gray-600">Projects Delivered</p>
             </div>
 
             <div className="p-5 rounded-xl border border-gray-200 bg-white shadow-sm">
-              <p className="text-2xl font-bold text-primary">15+</p>
-              <p className="text-sm text-gray-600">Clients Managed</p>
+              <p className="text-2xl font-bold text-primary">6+</p>
+              <p className="text-sm text-gray-600">Global Client Regions</p>
             </div>
 
             <div className="p-5 rounded-xl border border-gray-200 bg-white shadow-sm">
               <p className="text-2xl font-bold text-primary">20+</p>
-              <p className="text-sm text-gray-600">Cross-Functional Team Members</p>
+              <p className="text-sm text-gray-600">Team Members Managed</p>
             </div>
 
           </div>
