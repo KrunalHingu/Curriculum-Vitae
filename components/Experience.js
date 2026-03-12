@@ -16,96 +16,72 @@ export default function Experience() {
 
   const experience = [
     {
-      role: "Project Coordinator",
-      company: "TrooTech Technologies",
-      period: "Sept 2023 – Present",
+      role: "Project Manager",
+      company: "TRooTech Business Solutions Pvt. Ltd",
+      period: "Jul 2024 – Present",
       location: "Ahmedabad, Gujarat",
       details: [
-        "Leading AI-driven projects across diverse domains with expertise in legal tech.",
-        "Defined and executed long-term product strategies aligned with company goals.",
-        "Managed cross-functional Agile teams ensuring Scrum best practices.",
-        "Facilitated stand-ups, sprint planning, and retrospectives.",
-        "Communicated project risks and updates to stakeholders.",
-        "Encouraged innovation and engineering best practices across teams.",
+        "Leading multiple software projects across global clients.",
+        "Managing cross-functional development teams and ensuring Agile delivery.",
+        "Handling stakeholder communication and project planning.",
+        "Ensuring timely delivery and alignment with business goals.",
       ],
     },
     {
       role: "Project Manager",
-      company: "Crawlapps Technologies",
-      period: "Feb 2023 – Aug 2023",
-      location: "Surat, Gujarat",
-      details: [
-        "Managed the full IT project lifecycle from initiation to delivery.",
-        "Supervised development teams and resolved delivery blockers.",
-        "Presented project updates to clients and senior management.",
-        "Ensured on-time and high-quality delivery of multiple projects.",
-      ],
-    },
-    {
-      role: "Project Manager",
-      company: "AppStoneLab Technologies",
-      period: "Jul 2021 – Jan 2023",
-      location: "Surat, Gujarat",
-      details: [
-        "Implemented Agile methodologies to improve project efficiency.",
-        "Led a global team of 20+ IT professionals.",
-        "Tracked KPIs and proactively resolved delivery risks.",
-        "Improved team productivity by 20% through Agile practices.",
-      ],
-    },
-    {
-      role: "Business Analyst",
-      company: "CMARIX Technologies",
-      period: "Feb 2021 – May 2021",
+      company: "Infomax Digital India LLP",
+      period: "Jun 2023 – Jul 2024",
       location: "Ahmedabad, Gujarat",
       details: [
-        "Converted client requirements into detailed project scope documents.",
-        "Conducted workshops to finalize project proposals.",
-        "Created Work Breakdown Structures (WBS) for execution clarity.",
+        "Managed end-to-end delivery of web and SaaS projects.",
+        "Collaborated with technical teams for successful product delivery.",
+        "Worked closely with clients for requirement analysis and planning.",
+        "Ensured project timelines and quality standards were maintained.",
       ],
     },
     {
-      role: "Business Analyst",
-      company: "ManekTech",
-      period: "Jul 2019 – Jan 2021",
-      location: "Ahmedabad, Gujarat",
+      role: "Project Lead",
+      company: "Moonraft Innovation Labs Pvt Ltd",
+      period: "May 2022 – Jun 2023",
+      location: "Pune, India",
       details: [
-        "Prepared requirement analysis and technical proposals.",
-        "Created process flows and wireframes using Axure.",
-        "Developed client-facing case studies and presentations.",
+        "Led development teams for enterprise digital products.",
+        "Managed project delivery and coordinated between design and engineering teams.",
+        "Handled client communication and project progress reporting.",
       ],
     },
     {
-      role: "Business Development Associate",
-      company: "Tri-Force IT Services",
-      period: "Dec 2018 – Jun 2019",
+      role: "Sr. Team Lead",
+      company: "Moon Technolabs Pvt Ltd",
+      period: "Jun 2016 – May 2022",
       location: "Ahmedabad, Gujarat",
       details: [
-        "Researched US Federal Agencies and government tenders.",
-        "Prepared proposal documentation for federal projects.",
-        "Collaborated with clients on compliance documentation.",
+        "Led multiple development teams delivering web and mobile applications.",
+        "Managed technical planning and project execution.",
+        "Mentored developers and ensured high-quality code delivery.",
+        "Worked across domains including SaaS, marketplaces, and enterprise applications.",
+      ],
+    },
+    {
+      role: "Sr. Web Developer",
+      company: "eBizTrait Technolabs Pvt Ltd",
+      period: "Jun 2015 – Jun 2016",
+      location: "Ahmedabad, Gujarat",
+      details: [
+        "Developed web applications using modern frameworks.",
+        "Worked closely with clients for feature implementation.",
+        "Maintained performance and security of web platforms.",
       ],
     },
     {
       role: "Web Developer",
-      company: "SaiKrupa IT Software Solutions",
-      period: "Feb 2016 – Feb 2017",
-      location: "Navsari, Gujarat",
+      company: "Opal Infotech",
+      period: "Jun 2013 – Jun 2015",
+      location: "Ahmedabad, Gujarat",
       details: [
-        "Developed PHP/MySQL websites and portals.",
-        "Improved UX and platform functionality.",
-        "Mentored students in programming and final-year projects.",
-      ],
-    },
-    {
-      role: "PHP Developer",
-      company: "Lysung Ventures",
-      period: "Jul 2015 – Jan 2016",
-      location: "Surat, Gujarat",
-      details: [
-        "Built client-facing web applications.",
-        "Maintained open-source codebases.",
-        "Ensured bug-free production deployments.",
+        "Developed and maintained web applications.",
+        "Worked on frontend and backend development tasks.",
+        "Delivered multiple client websites and CMS projects.",
       ],
     },
   ];
@@ -128,12 +104,10 @@ export default function Experience() {
             key={i}
             className="experience-card relative p-6 rounded-xl bg-white shadow-sm border border-gray-200 transition"
           >
-            {/* Timeline Dot */}
             <div className="absolute left-0 -translate-x-1/2 top-6 w-4 h-4 rounded-full bg-primary"></div>
 
             <h3 className="text-xl font-semibold text-gray-900">
-              {exp.role}{" "}
-              <span className="opacity-80">– {exp.company}</span>
+              {exp.role} <span className="opacity-80">– {exp.company}</span>
             </h3>
 
             <p className="text-sm text-gray-500 mt-1">
@@ -149,7 +123,6 @@ export default function Experience() {
         ))}
       </div>
 
-      {/* Toggle Button */}
       <div className="text-center mt-10">
         <button onClick={handleToggle} className="btn-primary">
           {showAll ? "View Less Experience" : "View More Experience"}
