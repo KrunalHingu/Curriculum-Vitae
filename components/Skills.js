@@ -29,19 +29,18 @@ export default function Skills() {
           Core Skills
         </h2>
 
-        {/* Skills Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      import { FaCheckCircle } from "react-icons/fa";
 
-          {skills.map((skill, i) => (
-            <div
-              key={i}
-              className="p-6 rounded-xl border border-gray-200 bg-white shadow-sm text-sm font-medium text-gray-700 transition duration-200 hover:shadow-md hover:-translate-y-1"
-            >
-              {skill}
-            </div>
-          ))}
+<div className="grid md:grid-cols-2 gap-4">
 
-        </div>
+  {skills.map((skill, i) => (
+    <div key={i} className="flex items-center gap-3 text-gray-700">
+      <FaCheckCircle className="text-green-500" />
+      <span>{skill}</span>
+    </div>
+  ))}
+
+</div>
 
       </div>
     </section>
