@@ -12,44 +12,50 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Abhai Surti – Project Manager | Agile & AI Project Coordinator</title>
+        <title>Krunal Hingu – Project Manager | Agile & Scrum Professional</title>
 
         <meta
           name="description"
-          content="Abhai Surti – Project Manager from Ahmedabad with 8+ years of IT experience. Google Project Management Certified and Agile practitioner specializing in AI-driven project delivery, stakeholder management, and digital transformation."
+          content="Krunal Hingu – Project Manager from Ahmedabad with over 12 years of IT experience leading cross-functional teams and delivering complex projects globally across India, USA, China, Singapore, Australia, and Canada."
         />
 
         <meta
           name="keywords"
-          content="Abhai Surti, Project Manager, Agile Project Manager, AI Project Manager, Google PM Certified, IT Project Manager Ahmedabad"
+          content="Krunal Hingu, Project Manager, Agile Project Manager, Scrum Master, IT Project Manager Ahmedabad, Delivery Management, Stakeholder Management"
         />
 
-        <meta name="author" content="Abhai Surti" />
+        <meta name="author" content="Krunal Hingu" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        {/* Open Graph (LinkedIn / Facebook Preview) */}
-        <meta property="og:title" content="Abhai Surti – Project Manager Portfolio" />
+        {/* Open Graph */}
+        <meta property="og:title" content="Krunal Hingu – Project Manager Portfolio" />
+
         <meta
           property="og:description"
-          content="Project Manager with 8+ years of IT experience specializing in Agile, AI projects, and stakeholder management."
+          content="Project Manager with 12+ years of IT experience specializing in Agile delivery, stakeholder engagement, and global project execution."
         />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://abhai-surti-pm.vercel.app" />
 
-        {/* Twitter Preview */}
+        <meta property="og:type" content="website" />
+
+        <meta property="og:url" content="https://krunal-hingu.vercel.app" />
+
+        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Abhai Surti – Project Manager" />
+
+        <meta name="twitter:title" content="Krunal Hingu – Project Manager" />
+
         <meta
           name="twitter:description"
-          content="Google Project Management Certified professional with 8+ years in IT project delivery."
+          content="Project Manager with 12+ years experience delivering enterprise and SaaS projects across global markets."
         />
 
-        {/* Canonical URL */}
-        <link rel="canonical" href="https://abhai-surti-pm.vercel.app" />
+        {/* Canonical */}
+        <link rel="canonical" href="https://krunal-hingu.vercel.app" />
       </Head>
 
       <div className="min-h-screen bg-background text-foreground antialiased">
+        
         {/* Navigation */}
         <header>
           <Navbar />
@@ -62,6 +68,7 @@ export default function Home() {
 
         {/* Main Content */}
         <main className="max-w-6xl mx-auto px-6 py-12 space-y-12">
+          
           <section id="about">
             <About />
           </section>
@@ -81,12 +88,14 @@ export default function Home() {
           <section id="contact">
             <Contact />
           </section>
+
         </main>
 
         {/* Footer */}
         <footer>
           <Footer />
         </footer>
+
       </div>
     </>
   );
