@@ -9,7 +9,7 @@ export default function Hero() {
 
           <img
             src="/image.png"
-            alt="Abhai Surti Project Manager Profile Picture"
+            alt="Krunal Hingu Project Manager Profile Picture"
             className="relative w-36 h-36 md:w-44 md:h-44 rounded-full border-4 border-primary shadow-lg object-cover object-top"
           />
         </div>
@@ -18,25 +18,28 @@ export default function Hero() {
         <div className="text-center md:text-left max-w-xl">
 
           <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-            Hi, I’m <span className="text-primary">Abhai Surti</span>
+            Hi, I’m <span className="text-primary">Krunal Hingu</span>
           </h1>
 
           <p className="mt-4 text-xl md:text-2xl font-medium opacity-90">
-            Project Manager · Google PM Certified
+            Project Manager · Certified Scrum Master
           </p>
 
           {/* Tagline */}
           <p className="mt-4 text-lg md:text-xl opacity-80 leading-relaxed">
-            Leading <span className="text-primary">Agile teams</span> and delivering
-            <span className="text-primary"> AI-driven IT solutions</span> with a focus on
-            stakeholder alignment, strategic execution, and digital transformation.
+            Project Manager with over <span className="text-primary">12 years of experience</span>
+            leading cross-functional teams and delivering complex technology
+            solutions for global clients across <span className="text-primary">
+            India, the United States, China, Singapore, Australia, and Canada</span>.
+            Experienced in Agile delivery, stakeholder management, and driving
+            successful end-to-end project execution.
           </p>
 
           {/* Buttons */}
           <div className="mt-6 flex flex-wrap gap-4 justify-center md:justify-start">
 
             <a
-              href="https://drive.google.com/uc?export=download&id=11EK9msbaBOlM34MAudGD1rHARvMDHffh"
+              href="/Krunal-Hingu-CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
@@ -45,7 +48,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/abhai-surti-b20854140"
+              href="https://www.linkedin.com/in/krunalhingu/"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 rounded-lg border border-primary text-primary hover:bg-primary hover:text-white transition"
