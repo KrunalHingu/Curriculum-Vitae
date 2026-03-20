@@ -27,7 +27,7 @@ export default function Hero() {
 
           {/* Tagline */}
           <p className="mt-4 text-lg md:text-xl opacity-80 leading-relaxed">
-            Project Manager with over <span className="text-primary">12 years of experience</span>
+            Project Manager with over <span className="text-primary">12 years of experience</span>, 
             leading cross-functional teams and delivering complex technology
             solutions for global clients across <span className="text-primary">
             India, the United States, China, Singapore, Australia, and Canada</span>.
