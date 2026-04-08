@@ -21,8 +21,7 @@ export default function Navbar() {
           <a href="#about" className="hover:text-primary transition">About</a>
           <a href="#skills" className="hover:text-primary transition">Skills</a>
           <a href="#experience" className="hover:text-primary transition">Experience</a>
-          <!-- a href="#certifications" className="hover:text-primary transition">Certifications</a --> 
-          <a href="#contact" className="hover:text-primary transition">Contact</a>
+           <a href="#contact" className="hover:text-primary transition">Contact</a>
 
         </nav>
 
