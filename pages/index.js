@@ -14,7 +14,7 @@ export default function Home() {
       <Head>
         <title>Krunal Hingu – Project Manager | CSM</title>
 
-        <meta
+        <meta title="Krunal Hingu - CV" 
           name="description"
           content="Krunal Hingu – Project Manager from Ahmedabad with over 12 years of IT experience leading cross-functional teams and delivering complex projects globally across India, USA, China, Singapore, Australia, and Canada."
         />
